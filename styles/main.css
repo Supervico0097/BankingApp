@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background-color: #f4f0e6;
+  color: #2f5e30;
+}
+
+.header {
+
+  background-color: #d4e6d4;
+  height: auto;
+
+}
+
+
+
+
+.hero {
+  padding: 60px 40px;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #2f5e30;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.register-logo{
+  height: 70vh;
+}
