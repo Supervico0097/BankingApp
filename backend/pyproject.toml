@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "vxbanking-backend"
+version = "0.1.0"
+description = "Backend for VX Banking application"
+authors = ["Victor <vic_lilkhoury@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.135.2"
+uvicorn = "^0.42.0"
+sqlalchemy = "^2.0.48"
+passlib = "^1.7.4"
+email-validator = "^2.3.0"
+psycopg = {extras = ["binary"], version = "^3.3.3"}
+bcrypt = "4.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
